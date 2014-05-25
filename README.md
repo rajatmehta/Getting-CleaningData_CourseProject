@@ -3,6 +3,10 @@ Getting-CleaningData_CourseProject
 
 Coursera - Getting and Cleaning Data - Course Project
 
+### NOTES/ASSUMPTION
+#### 1. Raw data files are already downloaded and unzipped in the working directory
+#### 2. All relevant packages such as plyr have been already installed
+
 ### Following steps explain how run_analyis.R script creates a tidy dataset
 #### Step1: Read Train files(X, Y, Subject), Test files(X, Y, Subject), Activity Labels and Features files
 #### Step2: Join Train & Test datasets using Column Bind (X, Subject & Y)
